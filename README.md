@@ -1,4 +1,4 @@
-# products-import
+# Computers-import
 
 ### começando
     rode o comando composer install para instalar as dependencias 
