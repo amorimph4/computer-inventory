@@ -31,7 +31,7 @@ Route::group(['middleware' => 'auth:api'], function (){
 	Route::post('/create-computer', function (Request $request){
 		$validatedData = $request->validate([
 	        'name' => 'required|max:255',
-	        'launch_year' => 'required|max:255' , 
+	        'launch_year' => 'required|numeric' , 
 	        'manufacturer' => 'required|max:255' , 
 	        'operational_system' => 'required|max:255' ,
 	        'cpu' => 'required|max:255' ,

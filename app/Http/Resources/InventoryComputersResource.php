@@ -25,8 +25,8 @@ class InventoryComputersResource extends Resource
             'storage' => $this->storage,
             'initial_price' => (float) $this->initial_price,
             'image' => $this->image,
-            'comments' $this->comments,
-            'created' => $this->created_at->format("d/m/Y")
+            'comments' => $this->comments,
+            'created' => $this->created_at->format("d/m/Y"),
         ];
     }
 }
